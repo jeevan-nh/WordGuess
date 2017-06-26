@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    android:adjustViewBounds="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jeeva.wordguess.MainActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="Can you Guess This Word ?"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="HINT : Number of letters in the word is : 0"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/hint_textView"
+        android:layout_marginTop="15dp"
+       />
+
+    <TextView
+        android:text="Score:"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:id="@+id/scoreTextView"
+        android:textSize="19dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/optionList"
+        android:layout_marginTop="22dp"
+        android:layout_weight="0.34" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:hint="@string/answer_text"
+        android:id="@+id/answer_view" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub_btn"
+        android:layout_gravity="center"
+        android:onClick="submitting"/>
+
+    <Button
+        android:text="Show my score and End the game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/endGame"
+        android:onClick="endgame"/>
+</LinearLayout>
+</ScrollView>

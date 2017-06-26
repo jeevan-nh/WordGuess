@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Word Guess</string>
+    <string name="welcome_text">WElCOME TO WORD GUESS GAME</string>
+    <string name="answer_text">Enter your answer</string>
+</resources>

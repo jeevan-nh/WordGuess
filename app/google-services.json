@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "70558111379",
+    "firebase_url": "https://wordguess-beb6c.firebaseio.com",
+    "project_id": "wordguess-beb6c",
+    "storage_bucket": "wordguess-beb6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70558111379:android:98c080c29e886553",
+        "android_client_info": {
+          "package_name": "com.example.jeeva.wordguess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70558111379-oucor82b033oveoj6rrmfhs5nlsucmg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jeeva.wordguess",
+            "certificate_hash": "e1625137dc2a378b65540dc04b7a4636dc4f8986"
+          }
+        },
+        {
+          "client_id": "70558111379-3ob7r64cmbrskq1vlc0n6ccm7bop1c3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOO0TnPkzLs9fc77BoettBczsMu6dQDiU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70558111379-3ob7r64cmbrskq1vlc0n6ccm7bop1c3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
